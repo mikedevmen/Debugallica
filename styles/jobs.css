@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B");
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.4;
+}
+
+.videocover{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    background-color: black;  
+    width: 100vw;
+    height: 120vh;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 60vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    top:45%;
+    font-size: 55px;
+    color: #fff;
+    text-shadow: 2px 2px rgb(45, 73, 115);
+    
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+.svg-separator {
+    display: block;
+    margin: 0 auto; /* Centers the line */
+    width: 956.002px;
+    height: 20px;
+    transform: rotate(0.12deg);
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #59BEF1;
+    position: relative;
+    top: 10px; /* Adjust as needed */
+  }
+  
+  h1{
+    font-size: 100px;
+    text-align: center;
+  }
+  .check-out-section {
+    width: 90vw;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(90deg, #59BEF1 0%, #336D8B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px auto; 
+  }
+
+  .parallax-inner h1{
+    color: #fff;
+    filter: drop-shadow(0 0 10px #59bef1)
+  
+  }
+  .parallax-inner p{
+      font-size: 22px;
+      color: rgb(244, 248, 244);
+      filter: drop-shadow(0 0 10px #2d9ade);
+      text-align: center;
+      font-weight: 600;
+  }  
+
+.tester{
+    background: url('images/jobs1.jpg') no-repeat;
+    opacity: 0.7;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Cybersecurity{
+    background: url('images/jobs2.jpg') no-repeat;
+    opacity: 0.7;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.SoftwareDev{
+    background: url('images/jobs3.jpg') no-repeat;
+    opacity: 0.7;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.details{
+  color: #336d8b;
+  margin: 2% 10%;
+}
+
+.details h3{
+    color:#59BEF1 ;
+    font-size: medium;
+    font-weight: 600;
+}

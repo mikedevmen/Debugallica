@@ -1,0 +1,159 @@
+footer {
+    width: 100%;
+    background-color: black;
+    color: #a7a7a7;
+    font-size: 14px;
+    padding: 20px 0;
+    margin-top: auto;
+  }
+  
+  
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 15px;
+  }
+  
+  
+  .column {
+    flex: 1;
+    padding: 30px;
+    }
+  
+  
+  .logo1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  
+  .logo1:hover {
+    display: block;
+    color: #48a6ff;
+  }
+  
+  
+  h3 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  
+  p {
+    font-size: 21px;
+  }
+  
+  
+  .links-container {
+    display: flex;
+    gap: 30px;
+    margin-left: 0px;
+   
+  }
+  
+  
+  .links-container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  
+  .links-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 21px;
+  }
+  
+  
+  ul li a:hover {
+    color: #48a6ff;
+  }
+  
+  
+  .map-container {
+    width: 100%;  
+    max-width: 650px;
+    height: 300px;  
+    margin: 10px auto;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }  
+  
+  
+  .contacts {
+    list-style: none;
+    margin-left: -40px;
+    margin-top: auto;
+  }
+  
+  
+  .contacts li {
+    margin-bottom: 5px;
+    color: #a7a7a7;
+    font-size: 18px;
+  }
+  
+  
+  .media{
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  }
+  
+  
+  .btnf{
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #48a6ff;
+    font-weight:500;
+    border: 1px solid #48a6ff;
+    padding: 25px 28px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  
+  .btnf:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    transition: .3s ;
+    filter: drop-shadow(0 0 10px #fffdef)
+  }

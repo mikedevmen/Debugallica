@@ -1,0 +1,589 @@
+/* Le Mai Chi
+Student ID: 105555880
+Page: HomePage - index*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B");
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Page 1 */
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 60vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    top:45%;
+    font-size: 55px;
+    color: #fff;
+    text-shadow: 2px 2px rgb(38, 70, 39);
+    
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+.text-box img{
+    display: inline-block;
+    justify-content: space-between;
+    max-height: 100vh;
+    width: 10vw;
+    padding: 0px ;
+}
+.btn1{
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #59bef1;
+    font-weight:500;
+    border: 1px solid #336d8b;
+    padding: 25px 28px;
+    margin: 30px 10px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn1:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    transition: .3s ;
+    filter: drop-shadow(0 0 10px #fffdef)
+}
+@media (max-width: 1240px){
+    .text-box h1, .Info h1, .Power h1 {
+        font-size: 20px;
+    }
+    .parallax-inner h1 {
+        font-size: 18px;
+    }
+    .enhancedetails p{
+        font-size:12px
+    }
+    .enhancedetails h1{
+        font-size: 18px;
+    }
+    .enhancepar1 .parallax-inner p {
+        font-size: 10px;
+    }
+    .enhancepar2 .parallax-inner p {
+        font-size: 10px;
+    }
+    .enhancepar3 .parallax-inner p {
+        font-size: 10px;
+    }
+    .enhancepar4 .parallax-inner p {
+        font-size: 10px;
+    }
+    .enhancepar5 .parallax-inner p {
+        font-size: 10px;
+    }
+    .enhancepar6 .parallax-inner p {
+        font-size: 10px;
+    }
+    .enhancepar7 .parallax-inner p {
+        font-size: 10px;
+    }
+    .text-box p, .power-col a,.Info-col p{
+        font-size: 12px;
+    }
+    .parallax1 .parallax-inner p {
+    font-size: 10px;
+    color: #33cc33;
+    }
+    .parallax2 .parallax-inner p {
+        font-size: 10px;
+        color: #33cc33;
+    }
+    .Info-col h3, .power-col h3{
+        font-size: 18px;
+    }
+}
+
+
+
+/* Page 2 */
+.Info{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #336d8b;
+
+}
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.Info-col{
+    flex-basis: 31%;
+    background: #336d8b;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.Info h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: black;
+}
+.Info-col:hover{
+    box-shadow: 0 0 20px 2px rgba(32, 27, 27, 0.9);
+}
+@media(max-width: 1240px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Page 3, Parallax Page 3,4,5,6 */
+h1{
+  font-size: 100px;
+  text-align: center;
+}
+.parallax-inner h1{
+  color: #009897;
+  filter: drop-shadow(0 0 10px #59bef1)
+
+}
+.parallax-inner p{
+    font-size: 22px;
+    color: rgb(244, 248, 244);
+    filter: drop-shadow(0 0 10px #028600);
+    text-align: center;
+    font-weight: 600;
+}
+.parallax-inner a{
+    display: inline-block;
+    justify-content: space-between;
+}
+.parallax1{
+    background: url('images/index2.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax2{
+    background: url('images/index9.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax3{
+    background: url('images/index13.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax4{
+    background: url('images/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax-inner{
+    padding: 10% 0;
+}
+
+/* Page 4 */
+
+.layer{
+    background:transparent ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.layer:hover{
+    background: rgba(51, 109, 139, 0.8);
+}
+ 
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.3s;
+    opacity: 0;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.btn2{
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:500;
+    border: 1px solid #ffffff;
+    padding: 25px 28px;
+    margin: 30px 20px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn2:hover{
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    color: #336d8b;
+    transition: .3s ;
+    filter: drop-shadow(0 0 10px #fffdef)
+}
+/* Page 8 */
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+.facilities-col p{
+    padding: 0;
+
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #000;
+}
+
+/* Page 4,6 */
+.Power{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.power-col{
+flex-basis: 32%;
+border-radius: 10px;
+margin-bottom: 30px;
+position: relative;
+overflow: hidden;
+}
+.power-col img{
+    width: 510px;
+    height: 700px;
+    display: block;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(var(--row), 80px);
+    margin-top: 50px;
+    gap: 50px;
+    font-weight: 700;
+    color: #336d8b;
+}
+.grid-3{
+    --row: 6;
+    font-size: 10em;
+}
+.grid-3 div{
+    grid-column: 2/ 6;
+    text-wrap: nowrap;
+}
+.grid-3 div:nth-child(even){
+    text-align: right;
+}
+.grid-3 div:nth-child(5){
+    grid-column: 1/ 6;
+}
+.grid-3 div:nth-child(4){
+    grid-column: 1/ 7;
+}
+
+@keyframes scrollBackground {
+    from {
+        background-position: 0 50%;
+    }
+    to {
+        background-position: 0 1000%;
+    } 
+}
+/*Slider possition and style*/
+  
+.slider{
+    width: 100%;
+    height: var(--height);
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        #000 10% 90%,
+        transparent
+    );
+}
+.item1{
+    --position: 1
+}
+.item2{
+    --position: 2
+}
+.item3{
+    --position: 3
+}
+.item4{
+    --position: 4
+}
+.item5{
+    --position: 5
+}
+.item6{
+    --position: 6
+}
+.item7{
+    --position: 7
+}
+.item8{
+    --position: 8
+}
+.item9{
+    --position: 9
+}
+.item10{
+    --position: 10
+}
+
+.slider .list{
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width) * var(--quantity));
+    position: relative;
+}
+
+.slider .list .item{
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    left: 100%;
+    animation: autoRun 10s linear infinite;
+    transition: filter 0.5s;
+    animation-delay: calc( (10s / var(--quantity)) * (var(--position) - 1) - 10s)!important;
+}
+.slider .list .item img{
+    width: 100%;
+}
+
+.slider {
+--width: 100px;
+--height: 50px;
+--quantity: 10;
+}
+@keyframes autoRun{
+    from{
+        left: 100%;
+    }to{
+        left: calc(var(--width) * -1);
+    }
+}
+.slider:hover .item{
+    animation-play-state: paused!important;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+.slider .item:hover{
+    filter: grayscale(0);
+}
+.slider[reverse="true"] .item{
+    animation: reversePlay 10s linear infinite;
+}
+@keyframes reversePlay{
+    from{
+        left: calc(var(--width) * -1);
+    }to{
+        left: 100%;
+    }
+}
+/*About Us Link*/
+.grid-3 a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #336d8b;
+}
+.grid-3 a:hover{
+    cursor: pointer;
+    color: #000;
+}
+/*----Video----*/
+button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background:#336d8b;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5vb;
+    text-align: center;
+    padding: 100px 100px 25px 25px ;
+    margin: 50px 50px 50px 50px;
+    font-size: 8vb;
+    font-weight: 600;
+    color: #000;
+}
+button:hover{
+    background: transparent;
+    text-decoration: none;
+    color: #336d8b;
+    text-decoration-line: none;
+    cursor: pointer;
+    border: 1px solid #336d8b;
+    transition: .3s ;
+    filter: drop-shadow(0 0 10px #fffdef)
+}
+/* Footer*/
+
+footer p{
+    color: #fff;
+}
+footer p:hover{
+    color: #336d8b
+}
+
+/*Enhancement*/
+.enhancepar1{
+    background: url('images/enhance1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.enhancepar2{
+    background: url('images/enhance2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.enhancepar3{
+    background: url('images/enhance3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.enhancepar4{
+    background: url('images/enhance4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.enhancepar5{
+    background: url('images/enhance5.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.enhancepar6{
+    background: url('images/enhance6.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.enhancepar7{
+    background: url('images/enhance7.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.enhancedetails h1{
+    font-size: 40px ;
+    text-align: left;
+}
+.enhancedetails p{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    gap: 50px;
+}
+.enhancedetails ul li {
+    font-size: 18px;
+    font-weight: 500;
+    list-style: square;
+    text-align: left;
+    margin: 25px ;
+}
+span{
+    color: #336d8b;
+}
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    left: 15%;
+}
+.content-table thead tr{
+    background-color: #336d8b;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table tr, .content-table td{
+    padding: 12px 15px;
+
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;  
+}
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009897;
+}
